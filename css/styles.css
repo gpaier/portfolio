@@ -3449,6 +3449,7 @@ img.u-pull-left {
     content : ", ";
 }
 
+
 /* --------------------------------------------------------------------
  * ## about timelines
  * -------------------------------------------------------------------- */
@@ -3460,6 +3461,33 @@ img.u-pull-left {
 
 .about-timelines .text-pretitle {
     margin-left : var(--timeline-left-padding);
+}
+
+/* --------------------------------------------------------------------
+ * ## expertise
+ * -------------------------------------------------------------------- */
+ .s-expertise {
+    padding-top    : var(--vspace-4);
+    padding-bottom : var(--vspace-3);
+}
+
+ .expertise-expertise {
+    padding-top : calc(6 * var(--space));
+}
+
+.expertise-expertise .skills-list {
+    list-style  : none;
+    margin-top  : var(--vspace-1);
+    margin-left : 0;
+}
+
+.expertise-expertise .skills-list li {
+    display      : inline-block;
+    padding-left : 0;
+}
+
+.expertise-expertise .skills-list li:not(:last-child)::after {
+    content : ", ";
 }
 
 .timeline {
